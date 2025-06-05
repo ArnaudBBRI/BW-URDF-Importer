@@ -25,6 +25,7 @@
 * This file is modified by Dongho Kang to distributed as a Unity package 2019.
 */ 
 
+#if UNITY_EDITOR
 using Assimp.Unmanaged;
 using System.IO;
 using UnityEngine;
@@ -153,3 +154,4 @@ namespace Assimp
         }
     }
 }
+#endif
